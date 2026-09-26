@@ -10,8 +10,8 @@ planned for public release after acceptance.
 
 | Paper component | File | Main entry point |
 | --- | --- | --- |
-| Local Continuation Residual (LCR), Section 4.1 | `fcrg/evidence.py` | `radius_innovation` |
-| Scale-Aware Evidence (SAE), Section 4.1 | `fcrg/evidence.py` | `fit_interval_envelope`, `residual_features` |
-| Residual Evidence Fusion (REF), Section 4.2 | `fcrg/model.py` | `FullSequenceRayHead` |
-| Factorized Boundary Readout (FBR), Section 4.2 | `fcrg/posterior.py` | `factorized_posterior` |
+| Local Continuation Residual (LCR), Section 4.1 | `evidence.py` | `radius_innovation` |
+| Scale-Aware Evidence (SAE), Section 4.1 | `evidence.py` | `fit_interval_envelope`, `residual_features` |
+| Residual Evidence Fusion (REF), Section 4.2 | `model.py` | `FullSequenceRayHead` |
+| Factorized Boundary Readout (FBR), Section 4.2 | `posterior.py` | `factorized_posterior` |
 
