@@ -14,7 +14,4 @@ planned for public release after acceptance.
 | Scale-Aware Evidence (SAE), Section 4.1 | `fcrg/evidence.py` | `fit_interval_envelope`, `residual_features` |
 | Residual Evidence Fusion (REF), Section 4.2 | `fcrg/model.py` | `FullSequenceRayHead` |
 | Factorized Boundary Readout (FBR), Section 4.2 | `fcrg/posterior.py` | `factorized_posterior` |
-| Set-valued first-crossing likelihood, Section 4.3 | `fcrg/losses.py` | `interval_factorized_nll` |
-| Auxiliary within-stratum ranking | `fcrg/losses.py` | `pairwise_ranking_loss` |
-| Input/output tensor containers | `fcrg/types.py` | `RayResponseBatch`, `IntervalTrainingTargets` |
 
